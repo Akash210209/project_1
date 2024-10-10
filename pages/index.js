@@ -1,9 +1,11 @@
 import React from 'react'
-import IPOtable from '../src/components/IPOtable'
+import IPOtable from './IPOtable'
 const index = () => {
   return (
 <div className="App">
+
      <IPOtable/>
+
     </div>
   )
 }
