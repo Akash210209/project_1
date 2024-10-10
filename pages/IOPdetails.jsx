@@ -50,7 +50,7 @@ const Details = () => {
                         sx={{
                             fontWeight: 'bold',
                             fontFamily: "sora",
-                            fontSize: { xs: '10px', sm: '12px' }, // Responsive font size
+                            fontSize: { xs: '10px', sm: '12px' }, // Responsive font size using tailwind css file which i have created
                             backgroundColor: '#00004d',
                             color: '#fff',
                             padding: { xs: '4px 12px', sm: '6px 20px' }, // Responsive padding
@@ -78,7 +78,7 @@ const Details = () => {
                                 sx={{
                                     fontFamily: "sora",
                                     fontWeight: "bold",
-                                    fontSize: { xs: "1.25rem", sm: "1.5rem", md: "1.75rem" }, // Responsive font sizes
+                                    fontSize: { xs: "1.25rem", sm: "1.5rem", md: "1.75rem" }, // Responsive font size using tailwind css file which i have createds
                                 }}
                             >
                                 IPO details
@@ -103,7 +103,7 @@ const Details = () => {
                                             <Typography
                                                 sx={{
                                                     marginBottom: "4px",
-                                                    fontSize: { xs: "10px", sm: "12px" }, // Responsive font size
+                                                    fontSize: { xs: "10px", sm: "12px" }, // Responsive font size using tailwind css file which i have created
                                                     color: "#4d4e4e",
                                                     fontFamily: "sora",
                                                 }}
@@ -111,7 +111,7 @@ const Details = () => {
                                                 Issue size
                                             </Typography>
                                             <Typography
-                                                sx={{ fontFamily: "sora", fontWeight: "bold", fontSize: { xs: "10px", sm: "12px" } }} // Responsive font size
+                                                sx={{ fontFamily: "sora", fontWeight: "bold", fontSize: { xs: "10px", sm: "12px" } }} // Responsive font size using tailwind css file which i have created
                                             >
                                                 {issuesize}
                                             </Typography>
@@ -124,7 +124,7 @@ const Details = () => {
                                             <Typography
                                                 sx={{
                                                     marginBottom: "4px",
-                                                    fontSize: { xs: "10px", sm: "12px" }, // Responsive font size
+                                                    fontSize: { xs: "10px", sm: "12px" }, // Responsive font size using tailwind css file which i have created
                                                     color: "#4d4e4e",
                                                     fontFamily: "sora",
                                                 }}
@@ -132,7 +132,7 @@ const Details = () => {
                                                 Price range
                                             </Typography>
                                             <Typography
-                                                sx={{ fontFamily: "sora", fontWeight: "bold", fontSize: { xs: "10px", sm: "12px" } }} // Responsive font size
+                                                sx={{ fontFamily: "sora", fontWeight: "bold", fontSize: { xs: "10px", sm: "12px" } }} // Responsive font size using tailwind css file which i have created
                                             >
                                                 {pricerange}
                                             </Typography>
@@ -145,7 +145,7 @@ const Details = () => {
                                             <Typography
                                                 sx={{
                                                     marginBottom: "4px",
-                                                    fontSize: { xs: "10px", sm: "12px" }, // Responsive font size
+                                                    fontSize: { xs: "10px", sm: "12px" }, // Responsive font size using tailwind css file which i have created
                                                     color: "#4d4e4e",
                                                     fontFamily: "sora",
                                                 }}
@@ -153,7 +153,7 @@ const Details = () => {
                                                 Minimum amount
                                             </Typography>
                                             <Typography
-                                                sx={{ fontFamily: "sora", fontWeight: "bold", fontSize: { xs: "10px", sm: "12px" } }} // Responsive font size
+                                                sx={{ fontFamily: "sora", fontWeight: "bold", fontSize: { xs: "10px", sm: "12px" } }} // Responsive font size using tailwind css file which i have created
                                             >
                                                 {mininvestamount}
                                             </Typography>
@@ -166,7 +166,7 @@ const Details = () => {
                                             <Typography
                                                 sx={{
                                                     marginBottom: "4px",
-                                                    fontSize: { xs: "10px", sm: "12px" }, // Responsive font size
+                                                    fontSize: { xs: "10px", sm: "12px" }, // Responsive font size using tailwind css file which i have created
                                                     color: "#4d4e4e",
                                                     fontFamily: "sora",
                                                 }}
@@ -174,7 +174,7 @@ const Details = () => {
                                                 Lot size
                                             </Typography>
                                             <Typography
-                                                sx={{ fontFamily: "sora", fontWeight: "bold", fontSize: { xs: "10px", sm: "12px" } }} // Responsive font size
+                                                sx={{ fontFamily: "sora", fontWeight: "bold", fontSize: { xs: "10px", sm: "12px" } }} // Responsive font size using tailwind css file which i have created
                                             >
                                                 {mininvestdetail}
                                             </Typography>
@@ -187,7 +187,7 @@ const Details = () => {
                                             <Typography
                                                 sx={{
                                                     marginBottom: "4px",
-                                                    fontSize: { xs: "10px", sm: "12px" }, // Responsive font size
+                                                    fontSize: { xs: "10px", sm: "12px" }, // Responsive font size using tailwind css file which i have created
                                                     color: "#4d4e4e",
                                                     fontFamily: "sora",
                                                 }}
@@ -195,7 +195,7 @@ const Details = () => {
                                                 Issue dates
                                             </Typography>
                                             <Typography
-                                                sx={{ fontFamily: "sora", fontWeight: "bold", fontSize: { xs: "10px", sm: "12px" } }} // Responsive font size
+                                                sx={{ fontFamily: "sora", fontWeight: "bold", fontSize: { xs: "10px", sm: "12px" } }} // Responsive font size using tailwind css file which i have created
                                             >
                                                 {issuedates}
                                             </Typography>
@@ -208,7 +208,7 @@ const Details = () => {
                                             <Typography
                                                 sx={{
                                                     marginBottom: "4px",
-                                                    fontSize: { xs: "10px", sm: "12px" }, // Responsive font size
+                                                    fontSize: { xs: "10px", sm: "12px" }, // Responsive font size using tailwind css file which i have created
                                                     color: "#4d4e4e",
                                                     fontFamily: "sora",
                                                 }}
@@ -216,7 +216,7 @@ const Details = () => {
                                                 Listed on
                                             </Typography>
                                             <Typography
-                                                sx={{ fontFamily: "sora", fontWeight: "bold", fontSize: { xs: "10px", sm: "12px" } }} // Responsive font size
+                                                sx={{ fontFamily: "sora", fontWeight: "bold", fontSize: { xs: "10px", sm: "12px" } }} // Responsive font size using tailwind css file which i have created
                                             >
                                                 {Listedon}
                                             </Typography>
@@ -229,7 +229,7 @@ const Details = () => {
                                             <Typography
                                                 sx={{
                                                     marginBottom: "4px",
-                                                    fontSize: { xs: "10px", sm: "12px" }, // Responsive font size
+                                                    fontSize: { xs: "10px", sm: "12px" }, // Responsive font size using tailwind css file which i have created
                                                     color: "#4d4e4e",
                                                     fontFamily: "sora",
                                                 }}
@@ -237,7 +237,7 @@ const Details = () => {
                                                 Listed price
                                             </Typography>
                                             <Typography
-                                                sx={{ fontFamily: "sora", fontWeight: "bold", fontSize: { xs: "10px", sm: "12px" } }} // Responsive font size
+                                                sx={{ fontFamily: "sora", fontWeight: "bold", fontSize: { xs: "10px", sm: "12px" } }} // Responsive font size using tailwind css file which i have created
                                             >
                                                 {listedprice}
                                             </Typography>
@@ -250,7 +250,7 @@ const Details = () => {
                                             <Typography
                                                 sx={{
                                                     marginBottom: "4px",
-                                                    fontSize: { xs: "10px", sm: "12px" }, // Responsive font size
+                                                    fontSize: { xs: "10px", sm: "12px" }, // Responsive font size using tailwind css file which i have created
                                                     color: "#4d4e4e",
                                                     fontFamily: "sora",
                                                 }}
@@ -258,7 +258,7 @@ const Details = () => {
                                                 Listing gains
                                             </Typography>
                                             <Typography
-                                                sx={{ fontFamily: "sora", fontWeight: "bold", fontSize: { xs: "10px", sm: "12px" } }} // Responsive font size
+                                                sx={{ fontFamily: "sora", fontWeight: "bold", fontSize: { xs: "10px", sm: "12px" } }} // Responsive font size using tailwind css file which i have created
                                             >
                                                 {listinggains} <span style={{ color: "red" }}>{listinggainspercent}</span>
                                             </Typography>
@@ -283,7 +283,7 @@ const Details = () => {
                 className="border sm:border-gray-300 rounded-lg my-2 px-2 sm:px-4 sm:py-2"
                 style={{
                     borderWidth: "1px",
-                    borderColor: "rgb(191, 191, 191)", // You can keep this if you want to use inline style for border color
+                    borderColor: "rgb(191, 191, 191)", 
                     borderRadius: "4px",
                     margin: "8px",
                     padding: "10px",

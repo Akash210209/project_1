@@ -7,8 +7,8 @@ import {
   TimelineContent,
   TimelineDot,
 } from '@mui/lab';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle'; // Green tick icon
-import RadioButtonUncheckedIcon from '@mui/icons-material/RadioButtonUnchecked'; // Grey circle
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import RadioButtonUncheckedIcon from '@mui/icons-material/RadioButtonUnchecked'; 
 import { Typography } from '@mui/material';
 
 export default function CustomTimeline() {
@@ -25,11 +25,11 @@ export default function CustomTimeline() {
     <Timeline
       sx={{
         display: 'flex',
-        flexDirection: { xs: 'column', sm: 'row' }, // Stack items in column on xs screens
+        flexDirection: { xs: 'column', sm: 'row' }, 
         [`& .MuiTimelineItem-root`]: {
           display: 'flex',
-          justifyContent: 'flex-start', // Always left-align the timeline content
-          textAlign: 'left', // Align text to the left on all screen sizes
+          justifyContent: 'flex-start', 
+          textAlign: 'left', 
         },
       }}
     >
@@ -50,8 +50,8 @@ export default function CustomTimeline() {
             sx={{
               display: 'flex',
               flexDirection: 'column',
-              alignItems: 'flex-start', // Always align content to the left
-              marginLeft: '8px', // Add margin to separate the icon and content
+              alignItems: 'flex-start',
+              marginLeft: '8px', 
             }}
           >
             {/* Event label and time stacked */}
@@ -61,7 +61,7 @@ export default function CustomTimeline() {
               sx={{
                 fontWeight: "bold",
                 fontFamily: "Sora",
-                fontSize: { xs: '0.875rem', sm: '1rem' }, // Responsive font size
+                fontSize: { xs: '0.875rem', sm: '1rem' },
               }}
             >
               {event.label}
@@ -71,7 +71,7 @@ export default function CustomTimeline() {
               color="textSecondary"
               sx={{
                 fontFamily: "Sora",
-                fontSize: { xs: '0.75rem', sm: '0.875rem' }, // Responsive font size
+                fontSize: { xs: '0.75rem', sm: '0.875rem' }, 
               }}
             >
               {event.time}

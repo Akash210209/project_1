@@ -108,8 +108,8 @@ const MyTable = () => {
                     width: '60px',
                     height: '60px',
                     borderRadius: '50%',
-                    overflow: 'hidden', // Ensures image stays inside the circle
-                    marginRight: '10px', // Add spacing between image and text
+                    overflow: 'hidden',
+                    marginRight: '10px', 
                   }}
                 >
                   <img
@@ -118,7 +118,7 @@ const MyTable = () => {
                     style={{
                       width: '100%',
                       height: '100%',
-                      objectFit: 'cover', // Makes sure the image covers the entire circular area
+                      objectFit: 'cover', 
                     }}
                   />
                 </Box>

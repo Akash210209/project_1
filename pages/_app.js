@@ -11,7 +11,7 @@ const theme = createTheme();
 function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
-      <CssBaseline /> {/* Optional: This resets the CSS to use Material-UI styles */}
+      <CssBaseline /> 
       <Component {...pageProps} />
     </ThemeProvider>
   );
